@@ -90,7 +90,7 @@ body {
     text-align: center;
     font-family: 'Yu Gothic UI', sans-serif;
     width: 100%;
-    position: fixed; /* Fixed position */
+    position: fixed; 
     left: 0;
     right: 0;
     bottom: 0;
@@ -98,7 +98,7 @@ body {
     margin-bottom: 0;
   }
   
-  /* Add the background image and position it */
+
   .background {
     position: fixed;
     top: 0;
@@ -108,16 +108,16 @@ body {
     background-image: url('./assets/get started BG.png'); 
     background-size: cover;
     background-position: center;
-    filter: blur(0); /* Initial blur value, change it as needed */
-    transition: filter 0.5s; /* Add a transition effect for blur */
+    filter: blur(0); 
+    transition: filter 0.5s;
   }
   
-  /* Blur the background after 1.5 seconds */
+
   .blur {
-    filter: blur(5px); /* Adjust the blur amount as needed */
+    filter: blur(5px); 
   }
   
-  /* Style the switch container */
+
   .switch {
     display: flex;
     justify-content: left;
@@ -126,7 +126,7 @@ body {
     z-index: 2; 
   }
   
-  /* Style the switch buttons */
+
   .switch button {
     background-color: transparent;
     border: none;
@@ -140,15 +140,14 @@ body {
     font-family: 'Yu Gothic UI', sans-serif;
     font-weight: 300;
   }
-  
-  /* Style the active button */
+ 
   .switch button.active {
     background-color: #D7671A;
     color: white;
     border-radius: 8px; 
   }
   
-  /* Style the form container */
+
   .form-container {
     display: flex;
     flex-direction: column;
@@ -157,7 +156,7 @@ body {
     z-index: 2;
   }
   
-  /* Style the input labels */
+
   label {
   
     margin-top: 10px;
@@ -166,22 +165,21 @@ body {
     font-size: 16px;
     font-family: 'Yu Gothic UI', sans-serif;
   }
-  
-  /* Style the "Sign in" and "Sign up" forms */
+
   form {
     display: none;
     flex-direction: column;
     align-items: left;
     text-align: left;
-    z-index: 1; /* Set a higher z-index value */
+    z-index: 1;
   }
   
-  /* Show the active form */
+
   form.active {
     display: block;
   }
   
-  /* Style the Terms of Service text */
+ 
   p {
     color: #777;
     margin-top: 10px;
