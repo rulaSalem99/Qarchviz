@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="./css/Get Started.css">
+    <title>Get Started</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/Logo Thick.png">
+        <!--navigation bar-->
+        <ul>
+            <li> <a href="./Homepage.html">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="./Get Started-Sign up.html">Get Started</a></li>
+            <li><a href="">Support</a></li>
+        </ul>
+    </header>
+    <main>
+        <img class="background" src="./assets/get started BG.png" style="z-index: -1;">
+        <div class="container"
+            style="background-color: #121212c4; padding: 38px;align-items: right; justify-content: right; width: 344px; border-radius: 8px; z-index: 2; margin-top: 148px">
+            <div class="switch"
+                style="background-color: #858688;  border-radius: 8px; align-items: center; justify-content: center;">
+                <a href="./Get Started-Sign up.html"><button class="signInButton " style="padding-left: 70px;">Sign
+                        in</button></a>
+                <button class="signUpButton active" style="padding-right: 70px;">Sign up</button>
+            </div>
+            <div class="form-container">
+                <!-- Sign-In Form -->
+                <form id="signInForm" class="active">
+                    <label for="name" style="font-weight: 200;">Full Name</label> <br>
+                    <input type="text" id="name" name="name" required
+                        style="margin-bottom: 12px; background: none; border: #fff solid 1px; border-radius: 8px; height: 32px; width: 343px;">
+                    <label for="number" style="font-weight: 200;">Phone Number</label> <br>
+                    <input type="number" id="number" name="number" required
+                        style="margin-bottom: 12px; background: none; border: #fff solid 1px; border-radius: 8px; height: 32px; width: 343px;">
+                    <label for="email" style="font-weight: 200;">Email</label> <br>
+                    <input type="email" id="email" name="email" required
+                        style="margin-bottom: 12px; background: none; border: #fff solid 1px; border-radius: 8px; height: 32px; width: 343px;"><br>
+                    <label for="password" style="font-weight: 200;">Password</label> <br>
+                    <input type="password" id="password" name="password" required
+                        style="margin-bottom: 12px; background: none; border: #fff solid 1px; border-radius: 8px; height: 32px; width: 343px;">
+                    <br>
+                    <label for="signupPassword" style="font-weight: 200;">Confirm Password</label><br>
+                    <input type="password" id="signupPassword" required
+                        style="margin-bottom: 32px; background: none; border: #fff solid 1px; border-radius: 8px; height: 32px; width: 343px;">
+                    <p>By creating this account, you agree to the Terms of Service and Privacy Policy.</p>
+                    <input type="submit" value="Sign up"
+                        style="  background-color: #D7671A;
+              color: white;
+              border: none;
+              cursor: pointer; padding-top: 8px; padding-bottom: 8px; border-radius: 8px; font-size: 16px;
+              transition: background-color 0.3s, color 0.3s;justify-content: center;align-items: center; width: 350px;">
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p class=footer>Copyright 2023 - QARCHVIZ . All rights reserved.</p>
+    </footer>
+
+    <script src="./JS/getstarted.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Sign-Up Form -->
+<form id="signUpForm">
+    <label for="fullName">Full Name</label> <br>
+    <input type="text" required><br>
+    <label for="signupEmail">Email</label><br>
+    <input type="email" id="signupEmail" required><br>
+
+    <button type="submit">Sign Up</button>
+</form>

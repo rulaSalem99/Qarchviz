@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="./css/My-Profile.css" rel="stylesheet">
+    <title>My Profile</title>
+</head>
+
+<body>
+  
+        <header>
+            <img class="logo" src="./assets/Logo Thick.png">
+            <!--navigation bar-->
+            <ul>
+                <li> <a href="./Homepage.html">Home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="./Get Started-Sign up.html">Get Started</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href=""><i class="fa-regular fa-comment"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-bell"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-circle-user"></i></a></li>
+            </ul>
+        </header>
+
+        <main>
+            <nav>
+                <div class="nav-wrapper">
+                    <i class="fa-solid fa-arrow-left" style="padding-bottom:15px"></i>
+                    <div class="col s10">
+                        <a href="#" class="breadcrumb" style="color: #F86B1E;">Home </a>
+                        <a class="breadcrumb">> My profile</a>
+                    </div>
+                </div>
+            </nav>
+
+            <span>My profile</span>
+
+            <div class="profile-container">
+                <div class="left-panel">
+                    <img src="./assets/profile pic.png" alt="Profile Picture" width="255px" style="margin-top: 52px;">
+                    <h5 style="font-size: 16px;font-family: poppins;">Courses</h5>
+                    <p >  <a href="./Videos.html" style="color: #F86B1E;font-size: 14px; font-family: poppins; text-decoration: underline;">Introduction to 3ds Max</a></p>
+                </div>
+                <div class="right-panel" style="margin-left: 92px;" >
+                    <h1 style="font-size: 32px;font-family: poppins; margin-top: 0; margin-bottom: 24px; padding-bottom: 8px; border-bottom: #121212 solid 1px;">Your Name</h1>
+                    <button id="profile-button"><iconify-icon icon="gg:profile" style="padding-right: 12px;"></iconify-icon>Profile</button>
+                    <button id="account-button"><iconify-icon icon="pajamas:account" style="padding-right: 12px;"></iconify-icon>Account</button>
+
+                    <div id="profile-forms" >
+                        <!-- Profile input forms go here -->
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" disabled>
+                        <label for="number">Phone Number</label>
+                        <input type="number" id="number" name="number" placeholder="Phone number">
+                    </div>
+
+                    <div id="account-forms" class="hidden">
+                        <!-- Account input forms go here -->
+                        <label for="password">Current Password</label>
+                        <input type="text" id="password" name="password" placeholder="Enter current password" >
+                        <label for="password2">New Password</label>
+                        <input type="text" id="password2" placeholder="Enter new password">
+                        <label for="password3">Confirm Password</label>
+                        <input type="text" id="password3" placeholder="Confirm new password">
+                        <button style="background-color: #fff; border: #F86B1E solid 1px; color: #F86B1E; padding: 8px 16px;">Cancel</button>
+                        <button style="background-color: #F86B1E;  color: #fff; padding: 8px 16px;">Save</button>        
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <p class=footer>Copyright 2023 - QARCHVIZ . All rights reserved.</p>
+        </footer>
+
+   <script src="./JS/My-Profile.js"></script>
+
+</body>
+
+</html>
