@@ -104,12 +104,12 @@ a:hover {
 
 /* Style the images within each div */
 .videosContainer img {
-   height: 832px; /* Maintain aspect ratio */
+   height: 832px; 
 }
 
 /* Style the videos within each div */
 .videosContainer video {
-   max-width: 100%; /* Ensure videos don't exceed their container */
+   max-width: 100%; 
    margin-top: 281px;
    margin-left: 100px;
 
@@ -117,7 +117,7 @@ a:hover {
 
 /* Adjust the styling for h3 and buttons as needed */
 .videosContainer h3 {
-   font-size: 24px; /* You can adjust the font size as needed */
+   font-size: 24px; 
    margin-bottom: 10px;
    text-align: left;
    position: absolute;
@@ -129,11 +129,11 @@ a:hover {
 }
 
 .videosContainer button {
-   margin-top: auto; /* Push button to the bottom */
-   margin-right: auto; /* Push button to the right */
-   background-color: #F86B1E; /* Set the button color to orange */
-   color: #fff; /* Text color */
-   padding: 8px 16px; /* Padding for the button */
+   margin-top: auto; 
+   margin-right: auto; 
+   background-color: #F86B1E; 
+   color: #fff; 
+   padding: 8px 16px; 
    border: none;
    border-radius: 8px;
    cursor: pointer;
@@ -142,61 +142,61 @@ a:hover {
 
 /* Style the footer */
 footer {
-   background-color: rgba(31, 31, 31, 0.88); /* Background color with 88% transparency */
-   padding: 20px; /* Add some padding for spacing */
-   color: #fff; /* Text color */
-   display: flex; /* Display items in a row */
-   justify-content: space-between; /* Space items evenly */
-   align-items: center; /* Center items vertically */
-   position: fixed; /* Fixed position */
+   background-color: rgba(31, 31, 31, 0.88); 
+   padding: 20px; 
+   color: #fff; 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   position: fixed; 
    left: 0;
    right: 0;
-   bottom: 0; /* Stick to the bottom of the viewport */
-   z-index: 2; /* Ensure it's above other content */
-   width: 100%; /* Take the full width of the viewport */
+   bottom: 0; 
+   z-index: 2; 
+   width: 100%; 
 }
 
-/* Style the heroBanner.png image */
+
 footer img {
-   height: 73px; /* Set height to 73px */
-   margin-left: 100px; /* Add margin to the right of the image */
+   height: 73px; 
+   margin-left: 100px; 
 }
 
-/* Style the Qarchviz text */
+
 footer p.title {
-   margin: 0; /* Remove default margin */
-   font-size: 20px; /* You can adjust the font size as needed */
+   margin: 0; 
+   font-size: 20px; 
    font-family: 'Yu Gothic UI', sans-serif;
 }
 
-/* Style the ul */
+
 footer ul {
-   list-style: none; /* Remove default list styles */
-   padding: 0; /* Remove default padding */
-   margin: 0; /* Remove default margin */
+   list-style: none; 
+   padding: 0; 
+   margin: 0; 
    text-align: left;
-   margin-top: 20px; /* Add margin-top to move the ul below Qarchviz */
+   margin-top: 20px; 
 }
 
-/* Style the list items in the ul */
+
 footer ul li {
-   margin-right: 20px; /* Add right margin between list items */
+   margin-right: 20px; 
 }
 
 /* Style the Contact Us and icons */
 footer div:last-child {
    margin-right: 100px;
-   align-items: center; /* Center items vertically */
+   align-items: center; 
 }
 
 /* Style the icons */
 footer i {
-   margin-right: 10px; /* Add right margin between icons */
-   font-size: 24px; /* You can adjust the font size as needed */
+   margin-right: 10px; 
+   font-size: 24px; 
 }
 
 .Copyright {
-   margin: 10px 0; /* Add margin for spacing */
+   margin: 10px 0;
    margin-right: 100px;
 }
 
