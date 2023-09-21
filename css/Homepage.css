@@ -1,0 +1,203 @@
+/* styles.css */
+
+body {
+   margin: 0;
+   padding: 0;
+
+}
+
+/* Header styles */
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 58px;
+   background: rgba(31, 31, 31, 0.50);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 999;
+}
+
+/* Logo styles */
+.logo {
+   width: 46px;
+   height: 46px;
+   margin-left: 100px;
+}
+
+/* Navigation styles */
+ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   margin-right: 100px;
+}
+
+li {
+   margin-right: 22px;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-family: 'Yu Gothic UI', sans-serif;
+   transition: color 0.3s;
+   font-weight: 300;
+}
+
+a:hover {
+   color: #D7671A;
+}
+
+.background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 125%;
+   background-size: cover;
+   z-index: -1;
+   background-repeat: no-repeat;
+}
+
+/* Style the Qarchviz image */
+.qarch {
+   position: absolute;
+   left: 100px;
+   top: 0;
+   z-index: 1;
+   margin-top: 186px;
+}
+
+/* Style the paragraph */
+.qarch p {
+   margin-top: 10px;
+   color: white;
+   font-size: 26px;
+   font-family: 'Yu Gothic UI', sans-serif;
+   letter-spacing: 6px;
+   font-weight: 300;
+}
+
+.qarch img{ 
+   height: 135px; 
+}
+
+/* Style the videosContainer */
+.videosContainer {
+   flex-wrap: wrap;
+   justify-content:flex-start;
+   top: 125%;
+   position:absolute;
+   display: flex;
+}
+
+.videosContainer > div {
+  
+   display: flex;
+   
+}
+
+/* Style the images within each div */
+.videosContainer img {
+   height: 832px; /* Maintain aspect ratio */
+}
+
+/* Style the videos within each div */
+.videosContainer video {
+   max-width: 100%; /* Ensure videos don't exceed their container */
+   margin-top: 281px;
+   margin-left: 100px;
+
+}
+
+/* Adjust the styling for h3 and buttons as needed */
+.videosContainer h3 {
+   font-size: 24px; /* You can adjust the font size as needed */
+   margin-bottom: 10px;
+   text-align: left;
+   position: absolute;
+   z-index: 1;
+   margin-top: 205px;
+   margin-left: 735px;
+   margin-right: 200px;
+   font-family: 'Yu Gothic UI', sans-serif;
+}
+
+.videosContainer button {
+   margin-top: auto; /* Push button to the bottom */
+   margin-right: auto; /* Push button to the right */
+   background-color: #F86B1E; /* Set the button color to orange */
+   color: #fff; /* Text color */
+   padding: 8px 16px; /* Padding for the button */
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   z-index: 1;
+}
+
+/* Style the footer */
+footer {
+   background-color: rgba(31, 31, 31, 0.88); /* Background color with 88% transparency */
+   padding: 20px; /* Add some padding for spacing */
+   color: #fff; /* Text color */
+   display: flex; /* Display items in a row */
+   justify-content: space-between; /* Space items evenly */
+   align-items: center; /* Center items vertically */
+   position: fixed; /* Fixed position */
+   left: 0;
+   right: 0;
+   bottom: 0; /* Stick to the bottom of the viewport */
+   z-index: 2; /* Ensure it's above other content */
+   width: 100%; /* Take the full width of the viewport */
+}
+
+/* Style the heroBanner.png image */
+footer img {
+   height: 73px; /* Set height to 73px */
+   margin-left: 100px; /* Add margin to the right of the image */
+}
+
+/* Style the Qarchviz text */
+footer p.title {
+   margin: 0; /* Remove default margin */
+   font-size: 20px; /* You can adjust the font size as needed */
+   font-family: 'Yu Gothic UI', sans-serif;
+}
+
+/* Style the ul */
+footer ul {
+   list-style: none; /* Remove default list styles */
+   padding: 0; /* Remove default padding */
+   margin: 0; /* Remove default margin */
+   text-align: left;
+   margin-top: 20px; /* Add margin-top to move the ul below Qarchviz */
+}
+
+/* Style the list items in the ul */
+footer ul li {
+   margin-right: 20px; /* Add right margin between list items */
+}
+
+/* Style the Contact Us and icons */
+footer div:last-child {
+   margin-right: 100px;
+   align-items: center; /* Center items vertically */
+}
+
+/* Style the icons */
+footer i {
+   margin-right: 10px; /* Add right margin between icons */
+   font-size: 24px; /* You can adjust the font size as needed */
+}
+
+.Copyright {
+   margin: 10px 0; /* Add margin for spacing */
+   margin-right: 100px;
+}
+
+

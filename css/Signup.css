@@ -1,0 +1,190 @@
+body {
+    margin-right: 230px;
+    height: 100%;
+    margin-left: 100px;
+    
+  }
+  
+  
+  main {
+    margin-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+    
+  }
+  
+  /* Header styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #1f1f1fba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 100px;
+  }
+  
+  /* Navigation styles */
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+  }
+  
+  li {
+    margin-right: 22px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yu Gothic UI', sans-serif;
+    transition: color 0.3s;
+    font-weight: 300;
+  }
+  
+  .nav-wrapper {
+  
+    margin-top: 108px;
+    margin-bottom: 16px;
+  }
+  
+  .breadcrumb {
+    color: black;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #D7671A;
+  }
+  
+  .fa-comment,
+  .fa-bell,
+  .fa-circle-user {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    font-size: 14px;
+    background-color: #1f1f1fcd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Yu Gothic UI', sans-serif;
+    width: 100%;
+    position: fixed; /* Fixed position */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  /* Add the background image and position it */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/get started BG.png'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(0); /* Initial blur value, change it as needed */
+    transition: filter 0.5s; /* Add a transition effect for blur */
+  }
+  
+  /* Blur the background after 1.5 seconds */
+  .blur {
+    filter: blur(5px); /* Adjust the blur amount as needed */
+  }
+  
+  /* Style the switch container */
+  .switch {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 20px;
+    z-index: 2; 
+  }
+  
+  /* Style the switch buttons */
+  .switch button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding:8px 60px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    outline: none;
+    z-index: 2;
+    font-family: 'Yu Gothic UI', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Style the active button */
+  .switch button.active {
+    background-color: #D7671A;
+    color: white;
+    border-radius: 8px; 
+  }
+  
+  /* Style the form container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    z-index: 2;
+  }
+  
+  /* Style the input labels */
+  label {
+  
+    margin-top: 10px;
+    color: #ffffff;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Yu Gothic UI', sans-serif;
+  }
+  
+  /* Style the "Sign in" and "Sign up" forms */
+  form {
+    display: none;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    z-index: 1; /* Set a higher z-index value */
+  }
+  
+  /* Show the active form */
+  form.active {
+    display: block;
+  }
+  
+  /* Style the Terms of Service text */
+  p {
+    color: #777;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

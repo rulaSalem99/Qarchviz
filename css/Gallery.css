@@ -1,0 +1,124 @@
+body {
+    margin-right: 230px;
+    height: 100%;
+    margin-left: 100px;
+    
+}
+
+
+main {
+    margin-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #8F8F8F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Logo styles */
+.logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 100px;
+}
+
+/* Navigation styles */
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+
+li {
+    margin-right: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yu Gothic UI', sans-serif;
+    transition: color 0.3s;
+    font-weight: 300;
+}
+
+.nav-wrapper {
+
+    margin-top: 108px;
+    margin-bottom: 16px;
+}
+
+.breadcrumb {
+    color: black;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D7671A;
+}
+
+.fa-comment,
+.fa-bell,
+.fa-circle-user {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Style the footer */
+.footer {
+    font-size: 14px;
+    background-color: #1f1f1fcd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Yu Gothic UI', sans-serif;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+span {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.renders {
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+img{
+    width: 262px;
+    height: 285px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    border-radius: 12px;
+}
+
+img:hover{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,171 @@
+body {
+    margin-right: 230px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+main {
+    margin-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #8F8F8F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Logo styles */
+.logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 100px;
+}
+
+/* Navigation styles */
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+
+li {
+    margin-right: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yu Gothic UI', sans-serif;
+    transition: color 0.3s;
+    font-weight: 300;
+}
+
+.nav-wrapper {
+
+    margin-top: 108px;
+    margin-bottom: 16px;
+}
+
+.breadcrumb {
+    color: black;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D7671A;
+}
+
+.fa-comment,
+.fa-bell,
+.fa-circle-user {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Style the footer */
+.footer {
+    font-size: 14px;
+    background-color: #1f1f1fcd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Yu Gothic UI', sans-serif;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+span {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.courses-section {
+    display: flex;
+    margin-bottom: 20px; /* Margin between each section */
+}
+
+.course {
+    position: relative;
+}
+
+.card {
+    width: 255px; /* Adjust the width of the image container as needed */
+    position: relative;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s;
+}
+
+.info {
+    text-align:left;
+    color: white;
+    display: none; /* Initially hidden */
+    font-family: 'Yu Gothic UI', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.course:hover .overlay {
+    opacity: 1; 
+    height: 25%;
+    border-radius:  0px 0px 16px 16px;
+}
+
+.course:hover .info {
+    display: block; 
+}
+
+button{
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+button:hover{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+

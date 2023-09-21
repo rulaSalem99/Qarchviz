@@ -1,0 +1,313 @@
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: rgba(31, 31, 31, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Logo styles */
+.logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 100px;
+}
+
+/* Navigation styles */
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+
+li {
+    margin-right: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yu Gothic UI', sans-serif;
+    transition: color 0.3s;
+    font-weight: 300;
+}
+
+.nav-wrapper {
+    margin-top: 80px;
+    margin-bottom: 8px;
+}
+
+.breadcrumb {
+    color: black;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D7671A;
+}
+
+.fa-comment,
+.fa-bell,
+.fa-circle-user {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Style the footer */
+.footer {
+    font-size: 14px;
+    background-color: #1f1f1fcd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Yu Gothic UI', sans-serif;
+    width: 100%;
+    position: fixed;
+    /* Fixed position */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+span {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+/*******/
+.chat-page {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.instructor {
+    border-radius: 16px;
+    background: #686868;
+    padding: 12px 16px;
+    min-width: 30%;
+}
+
+.instructor .header h1 {
+    color: #F3F3F3;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.instructor .header {
+    border-bottom: 1px solid #898989;
+}
+
+
+.instructor .info {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.instructor .circle-image {
+    width: 48px;
+    border-radius: 50%;
+    padding: 0px 12px 0px 0px;
+}
+
+.instructor .Chat-info h2 {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.instructor .Chat-info h3 {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.chatting {
+    background: linear-gradient(117deg, rgba(47, 47, 47, 0.11) 2.44%, rgba(51, 51, 51, 0.05) 49.58%, rgba(70, 70, 70, 0.11) 96.73%);
+    backdrop-filter: blur(22.21784782409668px);
+    border-radius: 16px;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.chatting .name {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 16px 16px 0px 0px;
+    background: rgba(0, 0, 0, 0.56);
+    gap: 16px;
+
+}
+
+.chatting .circle-image {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.chatting .Chat-info h2 {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.chatting .Chat-info h3 {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.chatting .recive {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    display: inline-flex;
+    gap: 8px;
+    align-items: flex-start;
+
+    width: 50%;
+}
+
+.chatting .recive .circle-image {
+    width: 36px;
+    height: 36px;
+
+}
+
+.chatting .recive p {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.chatting .send {
+    text-align: right;
+    border-radius: 8px;
+    background: #F86B1E;
+padding: 8px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.chatting .send .circle-image {
+    width: 36px;
+    height: 36px;
+
+}
+
+.chatting .send p {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+
+.chatting .text-input {
+    background: rgba(0, 0, 0, 0.34);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding-top: 16px ;
+    padding-left: 12px;
+    display: inline-block;
+    border: 1px solid #cccccc00;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #9d9d9d;
+  }
+  input[type="text"]::placeholder {
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 13.331px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="text"]:focus::placeholder {
+    border: 1px solid #cccccc00;
+}
+input[type="text"] {
+    border: 1px solid #999; /* Default border style */
+    transition: border-color 0.3s; /* Add a smooth transition effect */
+}
+input[type="text"]:focus {
+    border-color: transparent; /* Make the border transparent when focused */
+    outline: none; /* Remove the default focus outline (optional) */
+    color: #FFF;
+    font-family: Yu Gothic UI;
+    font-size: 13.331px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

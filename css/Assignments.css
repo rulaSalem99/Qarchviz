@@ -1,0 +1,116 @@
+body{
+    margin-right: 230px;
+}
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: rgba(31, 31, 31, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Logo styles */
+.logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 100px;
+}
+
+/* Navigation styles */
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+
+li {
+    margin-right: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yu Gothic UI', sans-serif;
+    transition: color 0.3s;
+    font-weight: 300;
+}
+
+.nav-wrapper{
+    margin-left: 100px;
+    margin-top: 108px;
+    margin-bottom: 16px;
+}
+
+.breadcrumb {
+    color: black;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D7671A;
+}
+
+.fa-comment,
+.fa-bell,
+.fa-circle-user {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Style the footer */
+.footer {
+    font-size: 14px;
+    background-color: #1f1f1fcd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Yu Gothic UI', sans-serif;
+    width: 100%;
+    position: fixed; /* Fixed position */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+span {
+    margin-left: 100px;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight:bold;
+}
+
+table {
+    border-collapse: separate;
+    margin-left:100px;
+    margin-right: 100px;
+    width: 100%;
+    margin-top: 52px;
+    font-family:'Yu Gothic UI', sans-serif ;
+    font-weight: bold;
+}
+
+/* Style for the table cells (bubbles) */
+td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #7F7F7F; /* Bubble color */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
